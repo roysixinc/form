@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+  </head>
+<style>
+
+
+
+  input{margin-bottom:40px;
+  border-color: black;
+  border: 1px solid; 
+ 
+ margin-left:30px;
+}
+
+button{
+  margin-top:30px;
+  background-color:rgba(4, 80, 80, 0.868) ;
+  color:white;
+  border: none;
+  width:10%;
+  height: 20%;
+  cursor:pointer;
+  border-radius: 18px;
+  
+}
+  
+</style>
+
+<h1>Student's Information</h1>
+  <body>
+    
+    <form action="submit.php" method="post">
+     STUDENT'S NAME:<input type="text" name="form" placeholder="Write your Name"
+     required><br>
+      
+    
+     Telephone Number:<input type="tel" id="telephone" name="telephone" placeholder="Tel no." required><br>
+
+     Date Of Birth:<input type="date" name="dod" required><br>
+
+     Adimssion Number:<input type="text" name="adimssion"><br>
+      
+
+
+      Male:<input type="radio" name="gender" value="male">
+      Female:<input type="radio" name="gender"
+      value="female">
+      <br>
+      
+      
+
+     Choose course:<select name="course">
+      <option value="none">None</option>
+      <option value="course1">CIT</option>
+      <option value="course2">CBIT</option>
+     </select><br>
+
+      <button type="submit" name="submit">Submit</button>
+    </form>
+      
+      
+   
+  </body>
+</html>
